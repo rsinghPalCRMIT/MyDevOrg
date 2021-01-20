@@ -1,0 +1,340 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/accountCard": [
+                "accountCard/accountCard.js"
+            ],
+            "c/accountMap": [
+                "accountMap/accountMap.js"
+            ],
+            "c/bearList": [
+                "bearList/bearList.js"
+            ],
+            "c/bearLocation": [
+                "bearLocation/bearLocation.js"
+            ],
+            "c/bearMap": [
+                "bearMap/bearMap.js"
+            ],
+            "c/bearSupervisor": [
+                "bearSupervisor/bearSupervisor.js"
+            ],
+            "c/bearTile": [
+                "bearTile/bearTile.js"
+            ],
+            "c/bikeCard": [
+                "bikeCard/bikeCard.js"
+            ],
+            "c/bulkUpdateRecordUsingCheckBoxLwc": [
+                "bulkUpdateRecordUsingCheckBoxLwc/bulkUpdateRecordUsingCheckBoxLwc.js"
+            ],
+            "c/class1SampleTable": [
+                "class1SampleTable/class1SampleTable.js"
+            ],
+            "c/contactCard": [
+                "contactCard/contactCard.js"
+            ],
+            "c/createARecord": [
+                "createARecord/createARecord.js"
+            ],
+            "c/createAndUpdateRecordLWC": [
+                "createAndUpdateRecordLWC/createAndUpdateRecordLWC.js"
+            ],
+            "c/data": [
+                "data/data.js"
+            ],
+            "c/dataTableSendEmailLWC": [
+                "dataTableSendEmailLWC/dataTableSendEmailLWC.js"
+            ],
+            "c/deleteRecordUsingButtonlwc": [
+                "deleteRecordUsingButtonlwc/deleteRecordUsingButtonlwc.js"
+            ],
+            "c/detail": [
+                "detail/detail.js"
+            ],
+            "c/displayAccountRecord": [
+                "displayAccountRecord/displayAccountRecord.js"
+            ],
+            "c/dynamicRecordCreationRows": [
+                "dynamicRecordCreationRows/dynamicRecordCreationRows.js"
+            ],
+            "c/filterContactsLwc": [
+                "filterContactsLwc/filterContactsLwc.js"
+            ],
+            "c/helloExpressions": [
+                "helloExpressions/helloExpressions.js"
+            ],
+            "c/helloWebComponent": [
+                "helloWebComponent/helloWebComponent.js"
+            ],
+            "c/helloWorld": [
+                "helloWorld/helloWorld.js"
+            ],
+            "c/inlineMessage": [
+                "inlineMessage/inlineMessage.js"
+            ],
+            "c/lWCCalculatorExample": [
+                "lWCCalculatorExample/lWCCalculatorExample.js"
+            ],
+            "c/lWCChildParentComponents": [
+                "lWCChildParentComponents/lWCChildParentComponents.js"
+            ],
+            "c/lWCDecorators": [
+                "lWCDecorators/lWCDecorators.js"
+            ],
+            "c/lWCHooks": [
+                "lWCHooks/lWCHooks.js"
+            ],
+            "c/lWCIteration": [
+                "lWCIteration/lWCIteration.js"
+            ],
+            "c/lWCLearnIfConditions": [
+                "lWCLearnIfConditions/lWCLearnIfConditions.js"
+            ],
+            "c/lWCParentChildComponents": [
+                "lWCParentChildComponents/lWCParentChildComponents.js"
+            ],
+            "c/ldsUtils": [
+                "ldsUtils/ldsUtils.js"
+            ],
+            "c/learnHelloWorld": [
+                "learnHelloWorld/learnHelloWorld.js"
+            ],
+            "c/list": [
+                "list/list.js"
+            ],
+            "c/lwcAccountLookup": [
+                "lwcAccountLookup/lwcAccountLookup.js"
+            ],
+            "c/lwcAccountLookupRecordList": [
+                "lwcAccountLookupRecordList/lwcAccountLookupRecordList.js"
+            ],
+            "c/lwcAccountLookupSearchComponent": [
+                "lwcAccountLookupSearchComponent/lwcAccountLookupSearchComponent.js"
+            ],
+            "c/lwcCallApexMethod": [
+                "lwcCallApexMethod/lwcCallApexMethod.js"
+            ],
+            "c/lwcCallApexMethodUsingImperative": [
+                "lwcCallApexMethodUsingImperative/lwcCallApexMethodUsingImperative.js"
+            ],
+            "c/lwcCreateRecordUsingApex": [
+                "lwcCreateRecordUsingApex/lwcCreateRecordUsingApex.js"
+            ],
+            "c/lwcCreateRecordUsingApexChild": [
+                "lwcCreateRecordUsingApexChild/lwcCreateRecordUsingApexChild.js"
+            ],
+            "c/lwcCustomLookup": [
+                "lwcCustomLookup/lwcCustomLookup.js"
+            ],
+            "c/lwcDataTable": [
+                "lwcDataTable/lwcDataTable.js"
+            ],
+            "c/lwcDynamicRow": [
+                "lwcDynamicRow/lwcDynamicRow.js"
+            ],
+            "c/lwcDynamicRowContainer": [
+                "lwcDynamicRowContainer/lwcDynamicRowContainer.js"
+            ],
+            "c/lwcEditRecordForm": [
+                "lwcEditRecordForm/lwcEditRecordForm.js"
+            ],
+            "c/lwcLDSCreateRecord": [
+                "lwcLDSCreateRecord/lwcLDSCreateRecord.js"
+            ],
+            "c/lwcObjectDynamicRow": [
+                "lwcObjectDynamicRow/lwcObjectDynamicRow.js"
+            ],
+            "c/lwcObjectLookup": [
+                "lwcObjectLookup/lwcObjectLookup.js"
+            ],
+            "c/lwcObjectLookupRecordList": [
+                "lwcObjectLookupRecordList/lwcObjectLookupRecordList.js"
+            ],
+            "c/lwcObjectLookupSearchComponent": [
+                "lwcObjectLookupSearchComponent/lwcObjectLookupSearchComponent.js"
+            ],
+            "c/lwcOpportunityDetails": [
+                "lwcOpportunityDetails/lwcOpportunityDetails.js"
+            ],
+            "c/lwcProjectLookupRecordList": [
+                "lwcProjectLookupRecordList/lwcProjectLookupRecordList.js"
+            ],
+            "c/lwcRecordForm": [
+                "lwcRecordForm/lwcRecordForm.js"
+            ],
+            "c/lwcUpdateUserwithGroups": [
+                "lwcUpdateUserwithGroups/lwcUpdateUserwithGroups.js"
+            ],
+            "c/lwcUpdateUserwithGroupsV1": [
+                "lwcUpdateUserwithGroupsV1/lwcUpdateUserwithGroupsV1.js"
+            ],
+            "c/lwcViewRecordForm": [
+                "lwcViewRecordForm/lwcViewRecordForm.js"
+            ],
+            "c/lwcaura": [
+                "lwcaura/lwcaura.js"
+            ],
+            "c/lwccasemodel": [
+                "lwccasemodel/lwccasemodel.js"
+            ],
+            "c/lwcchild": [
+                "lwcchild/lwcchild.js"
+            ],
+            "c/lwccontactlist": [
+                "lwccontactlist/lwccontactlist.js"
+            ],
+            "c/lwcgetRecordUIAPI": [
+                "lwcgetRecordUIAPI/lwcgetRecordUIAPI.js"
+            ],
+            "c/lwcgrandchild": [
+                "lwcgrandchild/lwcgrandchild.js"
+            ],
+            "c/lwchostLookupInLwc": [
+                "lwchostLookupInLwc/lwchostLookupInLwc.js"
+            ],
+            "c/lwcparent": [
+                "lwcparent/lwcparent.js"
+            ],
+            "c/lwcsharejavascriptfile": [
+                "lwcsharejavascriptfile/lwcsharejavascriptfile.js"
+            ],
+            "c/lwcsinglecontact": [
+                "lwcsinglecontact/lwcsinglecontact.js"
+            ],
+            "c/lwcslotesdemo": [
+                "lwcslotesdemo/lwcslotesdemo.js"
+            ],
+            "c/lwcslots": [
+                "lwcslots/lwcslots.js"
+            ],
+            "c/lwcutility": [
+                "lwcutility/lwcutility.js"
+            ],
+            "c/lwxslotesnamed": [
+                "lwxslotesnamed/lwxslotesnamed.js"
+            ],
+            "c/myComponent": [
+                "myComponent/myComponent.js"
+            ],
+            "c/myFirstColorWebComponent": [
+                "myFirstColorWebComponent/myFirstColorWebComponent.js"
+            ],
+            "c/myFirstLWCComponent": [
+                "myFirstLWCComponent/myFirstLWCComponent.js"
+            ],
+            "c/myFirstWebComponent": [
+                "myFirstWebComponent/myFirstWebComponent.js"
+            ],
+            "c/orderBuilder": [
+                "orderBuilder/orderBuilder.js"
+            ],
+            "c/orderItemTile": [
+                "orderItemTile/orderItemTile.js"
+            ],
+            "c/paginator": [
+                "paginator/paginator.js"
+            ],
+            "c/parentContactListLwc": [
+                "parentContactListLwc/parentContactListLwc.js"
+            ],
+            "c/placeholder": [
+                "placeholder/placeholder.js"
+            ],
+            "c/productCard": [
+                "productCard/productCard.js"
+            ],
+            "c/productFilter": [
+                "productFilter/productFilter.js"
+            ],
+            "c/productListItem": [
+                "productListItem/productListItem.js"
+            ],
+            "c/productTile": [
+                "productTile/productTile.js"
+            ],
+            "c/productTileList": [
+                "productTileList/productTileList.js"
+            ],
+            "c/pubComponentLwc": [
+                "pubComponentLwc/pubComponentLwc.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/pubsubFilterContactsLwc": [
+                "pubsubFilterContactsLwc/pubsubFilterContactsLwc.js"
+            ],
+            "c/pubsubRelatedContacts": [
+                "pubsubRelatedContacts/pubsubRelatedContacts.js"
+            ],
+            "c/pusub1": [
+                "pusub1/pusub1.js"
+            ],
+            "c/searchAccountRecord": [
+                "searchAccountRecord/searchAccountRecord.js"
+            ],
+            "c/searchAccountRecords": [
+                "searchAccountRecords/searchAccountRecords.js"
+            ],
+            "c/searchContactRecord": [
+                "searchContactRecord/searchContactRecord.js"
+            ],
+            "c/selector": [
+                "selector/selector.js"
+            ],
+            "c/showComponentsLWC": [
+                "showComponentsLWC/showComponentsLWC.js"
+            ],
+            "c/similarProducts": [
+                "similarProducts/similarProducts.js"
+            ],
+            "c/simpleCalculator": [
+                "simpleCalculator/simpleCalculator.js"
+            ],
+            "c/subComponentLwc": [
+                "subComponentLwc/subComponentLwc.js"
+            ],
+            "c/testHellowordcomponent": [
+                "testHellowordcomponent/testHellowordcomponent.js"
+            ],
+            "c/tile": [
+                "tile/tile.js"
+            ],
+            "c/yourBikeSelection": [
+                "yourBikeSelection/yourBikeSelection.js"
+            ],
+            "c/lightningUIExamplelwc": [
+                "lightningUIExamplelwc/lightningUIExamplelwc.js"
+            ],
+            "c/lwcFlowAccountInfo": [
+                "lwcFlowAccountInfo/lwcFlowAccountInfo.js"
+            ],
+            "c/accountCreator": [
+                "accountCreator/accountCreator.js"
+            ],
+            "c/contactCreator": [
+                "contactCreator/contactCreator.js"
+            ],
+            "c/contactList": [
+                "contactList/contactList.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    },
+    "paths": {
+        "c/*": [
+            "*"
+        ]
+    }
+}
